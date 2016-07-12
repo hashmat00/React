@@ -6,12 +6,16 @@ var Weather = require("Weather");
 var About = require("About");
 var Example = require("Example");
 
+
 ReactDOM.render(
   <Router history={hashHistory}>
     <Route path="/" component={Main}>
+    
       <Route path="About" component={About}/>
       <Route path="Example" component={Example}/>
+      
      <IndexRoute component={Weather}/>
+     
    </Route>
   </Router>,
   document.getElementById('app')

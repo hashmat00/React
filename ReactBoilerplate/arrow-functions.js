@@ -30,3 +30,25 @@ var person = {
 
 
 person.greet();
+
+
+console.log('===================')
+
+
+// challenge Area
+function add (a, b) {
+    return a + b;
+}
+
+// adddStatement
+var addStatement = (a, b) => {
+    return a + b;
+}
+console.log(addStatement(4, 7));
+
+console.log('===================')
+
+
+// AddExpression
+var addExpression = (a, b) => a + b;
+console.log(addExpression(7, 7));

@@ -6,7 +6,7 @@ app.use(express.static('public'));
 
 
 
-
+//change setting for timer"
 
 
 app.listen(process.env.PORT, process.env.IP, function(){

@@ -1,17 +1,5 @@
 var React = require('react');
 var {Link} = require('react-router');
-// var Example = React.createClass({
-//     render: function(){
-//         return (
-            
-//             <h1>Example Component</h1>
-//             )
-//     }
-// });
-
-
-
-
 
 var Examples = (props) => {
   return (

@@ -1,3 +1,5 @@
+//load modules as webpack
+
 module.exports = {
   entry: './app/app.jsx',
   output: {
